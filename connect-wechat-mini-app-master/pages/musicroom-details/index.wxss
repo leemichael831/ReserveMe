@@ -1,0 +1,39 @@
+.label-title {
+  font-size: 34px;
+  color: #000;
+  text-align: center;
+  background-color: #acacb7;
+}
+
+.label-text {
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  background-color: #acacb7;
+}
+
+.buttonreserve {
+  color: #000;
+  text-align: center;
+  background-color:#03a9f4;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  bottom:0;
+  top:70%;
+}
+
+.buttondelete {
+  color: #000;
+  text-align: center;
+  background-color:#e64340;
+  margin-bottom: 5px;
+  bottom:0;
+}
+
+.coolfont{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.musicroompic{
+  width:100%;
+}

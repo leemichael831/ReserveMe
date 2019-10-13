@@ -1,0 +1,14 @@
+
+  <!-- <image src="/images/musicroom.jpg" class = "musicroompic" ></image>-->
+
+
+    <view class="label-title">Overview</view>
+    <view class="label-text">Time Available for Reservation: </view>
+    <view class="label-text">Lunch Break 12:35-1:05 </view>
+    <view class= "label-text">Afterschool 3:30-4:30</view>
+    <view class="label-text">Adminstrator: Ms. Jeannie Hooi</view>
+
+
+  <button bindtap = "goToMusicCalendar" class = "buttonreserve"> Reserve Now </button>
+  <button bindtap = "goToDelete" class = "buttondelete"> Delete a Reservation </button>
+  

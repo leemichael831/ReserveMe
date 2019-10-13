@@ -1,0 +1,17 @@
+{
+  "pages": [
+          "pages/musicroom-details/index",
+
+
+    "pages/calendar/index",
+
+    "pages/calendardelete/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000080",
+    "navigationBarTitleText": "ReserveMe",
+    "navigationBarTextStyle": "#fff"
+  }
+  
+}

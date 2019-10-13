@@ -1,0 +1,22 @@
+
+
+<form bindsubmit="submitF" bindreset="formReset" class="form">
+
+  <view class="row-wrap">
+    <view class="label">Insert Your WeChat ID </view>
+    <view class="label-right">
+      <input name="inputName" class="input" placeholder="Insert Name" bindchange="titleInput" required/>
+    </view>
+  </view>
+
+
+
+<button class="submit" formType="submit">Search for your reservations</button> 
+
+</form>
+Your Reservations:
+<view class = "reservationblocks" wx:for="{{selfreservations}}" wx:for-index="idx">
+{{selfreservations[idx].datetime}}
+
+<button data-pick = "{{idx}}" bindtap = "bindButtonChange">delete!</button>
+</view>
